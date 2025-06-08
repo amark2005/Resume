@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMAR KESHAV | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amar Keshav | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
     <nav class="navbar">
-      <div class="container">
-        <a href="#home" class="logo">AMAR KESHAV</a>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
-      </div>
+      <a href="#" class="logo">AMAR KESHAV</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
+    <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="hero-content">
-        <img src="img/efylookside.jpg" alt="Amar Keshav" class="hero-img">
+        <img src="img/efylookside.jpg" alt="Amar Keshav" class="hero-img" />
         <div>
           <h1>Hello, I'm <span class="highlight">Amar Keshav</span></h1>
           <p class="subtitle">Exploring new horizons</p>
@@ -33,10 +33,12 @@
       </div>
     </section>
 
+    <!-- Resume Section -->
     <section id="resume" class="section">
       <h2 class="section-title">My <strong>Resume</strong></h2>
       <div class="resume-flex">
-        <div class="resume-card">
+        <!-- Education Card -->
+        <article class="resume-card">
           <h3>Education</h3>
           <div class="resume-item">
             <span class="date">July 2023 - Present</span>
@@ -44,8 +46,10 @@
             <p>The wellspring of knowledge may shift, but the first draught shapes the explorer's thirst.</p>
             <span class="school">Bharathidasan University</span>
           </div>
-        </div>
-        <div class="resume-card">
+        </article>
+
+        <!-- Experience Card -->
+        <article class="resume-card">
           <h3>Experience</h3>
           <div class="resume-item">
             <span class="date">January 2024 - Present</span>
@@ -53,13 +57,14 @@
             <p>In the realm of software, we craft innovation, leaving no room for doubt.</p>
             <span class="school">Kasar Automations</span>
           </div>
-        </div>
+        </article>
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="section about-section">
       <div class="about-flex">
-        <img src="img/coatup.jpg" alt="Profile" class="about-img">
+        <img src="img/coatup.jpg" alt="Profile" class="about-img" />
         <div class="about-bio">
           <h2>About Me</h2>
           <p>Curious learner | Tech enthusiast | Driven by innovation to make a positive global impact. Lifelong explorer, community builder, seeking to leverage skills for a meaningful career.</p>
@@ -68,9 +73,10 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section contact-section">
       <h2 class="section-title">Get in Touch</h2>
-      <div class="contact-flex">
+      <address class="contact-flex">
         <div class="contact-info">
           <h3>Email</h3>
           <p><a href="mailto:amarkeshav14@gmail.com">amarkeshav14@gmail.com</a></p>
@@ -79,10 +85,11 @@
           <h3>Address</h3>
           <p>222-B, Periyachettipalayam, 46-pudur, Erode-02, Tamil Nadu, India</p>
         </div>
-      </div>
+      </address>
     </section>
   </main>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 </html>
